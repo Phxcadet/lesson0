@@ -1,6 +1,5 @@
 def single_root_words(root_word, *other_words):
     same_words = []
-    root_word.lower()
     for word in other_words:
         other_words = str(other_words)
         other_words = other_words.lower()
